@@ -1,0 +1,18 @@
+body {
+    background-color: lightblue;
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    margin: 5px;
+}
+
+h1 {
+    color: navy;
+    margin-bottom: 20px;
+}
+
+p {
+    color: rgb(255, 0, 0);
+    margin-top: 10px;
+}

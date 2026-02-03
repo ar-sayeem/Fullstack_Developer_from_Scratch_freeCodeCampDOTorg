@@ -1,0 +1,26 @@
+body {
+    margin: 8px;   /* Default margin for body */
+}
+
+p {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.red {
+    background-color: red;
+    height: 120px;
+    margin-bottom: 0px;
+}
+
+.blue {
+    background-color: blue;
+    height: 80px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.yellow {
+    background-color: yellow;
+    height: 120px;
+}

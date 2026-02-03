@@ -1,0 +1,90 @@
+/* img {
+    width: 300px;
+    height: auto;
+    display: block;
+} */
+
+.main {
+    margin: 50px;
+}
+
+.logo-img {
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    display: block;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    /* to make a img center just need these 3 things done
+       1. Set the left and right margins to auto
+       2. Set the display property to block
+       3. Set a width for the image
+     */
+}
+
+.search {
+    display: block;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    line-height: 24px;
+    /* same as height */
+    padding: 10px 30px 10px 30px;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+}
+
+/* input {
+    width: 400px;
+    font-size: 16px;
+    display: block;
+} */
+
+/* button {
+    color: #0f1419;
+    font-weight: bold;
+    border-radius: 50px;
+    border: 1px solid #cfd9de;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.buttons {
+    display: block;
+    width: 220px;
+    margin-left: auto;
+    margin-right: auto;
+} */
+
+.btn-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    background-color: #dfe1e5;
+    border: none;
+    padding: 8px 16px 8px 16px;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0 4px 0 4px;
+}
+
+
+.card-nothing-much {
+    color: white;
+    background-color: gray;
+    width: 200px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    text-align: center;
+    border: 5px solid black;
+    border-radius: 10px;
+}
