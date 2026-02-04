@@ -1,0 +1,7 @@
+start from 02:21:01 Building a business card
+- Image alt text
+- Flex child containers
+- Inheritence
+- Shorthands
+- Web-safe fonts
+- Color palettes

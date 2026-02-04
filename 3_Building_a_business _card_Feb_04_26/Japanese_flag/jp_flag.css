@@ -1,0 +1,18 @@
+.flag {
+    position: relative;
+    height: 200px;
+    width: 300px;
+    background-color: #ffffff;
+    border: 1px solid #0000002a;
+}
+
+.red-circle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    background-color: #bc002d;
+}
