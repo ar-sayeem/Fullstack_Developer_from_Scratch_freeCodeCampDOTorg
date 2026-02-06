@@ -1,0 +1,17 @@
+body {
+ background: whitesmoke;
+ color: whitesmoke;
+ font-family: 'Orbitron', sans-serif;   
+}
+
+.ad {
+  background: #35654d;
+  border: 5px solid #e66700;
+  text-align: center;
+}
+
+.cta {
+  border: 2px solid #e66700;
+  padding: 5px 10px;
+  background-color: #472000;
+}
