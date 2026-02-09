@@ -1,7 +1,6 @@
 From 04:17:21 Birthday website [Feb 05, 2026]
-- 
-- 
-- 
-- 
-- 
-- 
+- align-item
+- flex-direction
+- :hover
+- Gradients
+- Grouping selector

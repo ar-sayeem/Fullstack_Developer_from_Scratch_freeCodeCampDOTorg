@@ -1,0 +1,16 @@
+a {
+    text-align: center;
+    color: white;
+    background-color: red;
+    margin: 5px;
+    padding: 25px 0;
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: darkred;
+    /* background-image: url("hover-bg.jpg"); */
+}
