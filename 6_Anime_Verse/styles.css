@@ -7,10 +7,12 @@ body {
     font-family: 'OnePiece';
     src: url(./fonts/one_piece_font.ttf);
 }
+
 @font-face {
     font-family: 'Frieren';
     src: url(./fonts/FeENrm28C.otf);
 }
+
 @font-face {
     font-family: 'Naruto';
     src: url(./fonts/njnaruto.ttf);
@@ -23,7 +25,7 @@ body {
     background-size: cover;
     height: 350px;
     font-family: "Sekuya", system-ui;
-    
+
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -64,8 +66,7 @@ body {
     margin: 10px;
     font-style: italic;
 
-    flex: 1; /* makes all children equal width */
-
+    flex: 1;
 }
 
 #one-piece-title {
@@ -93,21 +94,109 @@ body {
     transition: 0.3s;
 }
 
+
+.recommandator-card {
+    border: 2px solid #5900ff;
+    padding: 20px;
+
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    width: 400px;
+    margin: 10px auto 10px auto;
+
+    /* NEW: Hide text initially and change background to black */
+    color: transparent;
+    /* Text is invisible by default */
+    background: #000000;
+    /* Changed from #a7d2fa to black */
+    border-bottom: 6px solid #5900ff;
+    border-radius: 10px;
+    transition: color 0.3s ease;
+    /* NEW: Smooth transition for text color */
+}
+
+/* NEW: Show text when hovering over the card */
+.recommandator-card:hover {
+    color: #ffffff;
+    /* Text becomes white on hover */
+}
+
+
+#avatar-part {
+    margin: 0;
+    position: relative;
+    /* NEW: Required for pseudo-element positioning */
+}
+
+/* NEW: Create permanent border circle using pseudo-element */
+#avatar-part::before {
+    content: '';
+    /* Empty content to create the element */
+    position: absolute;
+    /* Position it over the avatar */
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid #3f00bd;
+    /* Visible border matching button */
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    /* Center the border */
+}
+
 #avatar {
-    background-color: rgb(0, 255, 255);
     border-radius: 50%;
     width: 150px;
-    border: 5px solid #ff0202;
+    border: none;
+    /* CHANGED: Removed border from image (was 3px solid #5900ff) */
+    opacity: 0;
+    /* NEW: Hide image by default, but border remains visible */
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    /* NEW: Smooth transitions */
 }
 
 #avatar:hover {
+    opacity: 1;
+    /* NEW: Show image on hover */
     transform: scale(105%);
-    transition: 0.3s;
 }
 
-.recommandator {
-    width: 400px;
-    height: 400px;
+#info-part {
+    font-weight: 600;
+    margin: 0;
+
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#info-text {
+    margin: 0 auto;
+    width: 95%;
+    text-align: center;
+}
+
+#btn {
+    background-color: transparent;
+    /* NEW: Transparent background (was #5900ff) */
+    color: transparent;
+    /* NEW: Hide button text initially (was white) */
+    padding: 10px;
+    margin: 10px;
+    border: 3px solid #3f00bd;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    /* NEW: Smooth transition for all properties */
+}
+
+#btn:hover {
+    background-color: #5900ff;
+    /* NEW: Show background on hover */
+    color: white;
+    /* NEW: Show text on hover */
+    transform: scale(105%);
 }
