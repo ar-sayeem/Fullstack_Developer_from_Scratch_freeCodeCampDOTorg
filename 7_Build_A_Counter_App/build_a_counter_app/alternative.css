@@ -1,0 +1,111 @@
+/* Import a cool font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Space+Mono:wght@700&display=swap');
+
+/* ── Body: the whole page ── */
+body {
+    background-image: url("station.jpg");
+    background-size: cover;       /* stretch image to fill the screen */
+    background-position: center;  /* keep it centered */
+
+    font-family: 'Space Mono', monospace;
+    font-weight: bold;
+    text-align: center;
+
+    /* dark overlay so text is easy to read over the photo */
+    background-color: rgba(0, 0, 0, 0.6);
+    background-blend-mode: darken;
+
+    /* center everything on the page */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    padding: 40px 20px;
+}
+
+/* ── Main heading ── */
+h1 {
+    font-family: 'Bebas Neue', cursive; /* big, bold display font */
+    font-size: 3rem;
+    letter-spacing: 0.15em;            /* space out the letters */
+    color: white;
+    margin-bottom: 10px;
+}
+
+/* ── The big number counter ── */
+h2 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 8rem;                   /* really big! */
+    color: white;
+    margin-bottom: 20px;
+    line-height: 1;
+
+    /* glowing white text shadow */
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.6);
+}
+
+/* ── All buttons share these base styles ── */
+button {
+    display: block;           /* each button on its own line */
+    margin: 0 auto 12px;      /* centered, with space below */
+    width: 220px;
+    padding: 12px 0;
+
+    border: none;
+    border-radius: 6px;       /* rounded corners */
+
+    color: white;
+    font-family: 'Space Mono', monospace;
+    font-size: 0.85rem;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    text-transform: uppercase; /* ALL CAPS text */
+
+    cursor: pointer;           /* show hand cursor on hover */
+
+    /* smooth animation when hovering */
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+/* lift the button up slightly on hover */
+button:hover {
+    transform: translateY(-3px);
+}
+
+/* press the button down when clicked */
+button:active {
+    transform: translateY(1px);
+}
+
+/* ── Individual button colors ── */
+
+#increment-btn {
+    background-color: #e8262b;                      /* red */
+    box-shadow: 0 4px 20px rgba(232, 38, 43, 0.5); /* red glow */
+}
+
+#save-btn {
+    background-color: #1a7a4a;                      /* green */
+    box-shadow: 0 4px 20px rgba(26, 122, 74, 0.5); /* green glow */
+}
+
+#reset-btn {
+    background-color: #0d6b72;                       /* teal */
+    box-shadow: 0 4px 20px rgba(13, 107, 114, 0.5); /* teal glow */
+}
+
+/* ── Previous entries text ── */
+#save-count {
+    margin-top: 20px;
+    padding-top: 16px;
+
+    /* faint line above to separate it from the buttons */
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+
+    color: rgba(255, 255, 255, 0.65); /* slightly faded white */
+    font-size: 0.8rem;
+    letter-spacing: 0.1em;
+    line-height: 2;                   /* space between lines */
+}

@@ -1,0 +1,10 @@
+From 05:30:38 Build a counter app [Feb 20, 2026]
+
+- script tag
+- variables | numbers | strings
+- consol.log()
+- functions
+- The DOM
+- getElementById("")
+- innterText
+- textContent (alternative of innerAText) 

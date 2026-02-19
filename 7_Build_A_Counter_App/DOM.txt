@@ -1,0 +1,2 @@
+Document Object Model
+-> how you use JavaScript to modify websites
