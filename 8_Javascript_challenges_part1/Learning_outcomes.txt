@@ -1,6 +1,4 @@
-From ... [Feb 24, 2026]
-- 
-- 
-- 
-- 
-- 
+From 06:46:17 Javascript challenges part 1 [Mar 04, 2026]
+- Practice Nike Shoe
+- Practice Calculator
+- Practice Basketball Score Board
