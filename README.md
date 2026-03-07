@@ -12,18 +12,34 @@
 
 ---
 
+## 🧩 Mini Projects
+
+<div align="center">
+
+| Project Name | Techs | Live Link |
+|:---:|:---:|:---:|
+| 🪪 Business Card | ![HTML5][badge-html] ![CSS3][badge-css] | [🔗 Live →](https://ars-business-card.netlify.app/) |
+| ⛩️ Anime Verse | ![HTML5][badge-html] ![CSS3][badge-css] | [🔗 Live →](https://ars-animeverse.netlify.app/) |
+| 🏀 Basketball Scoreboard | ![HTML5][badge-html] ![CSS3][badge-css] ![JavaScript][badge-js] | [🔗 Live →](https://ars-basketball-scoreboard.netlify.app/) |
+
+</div>
+
+---
+
 ## 🛠️ Tech Stack
 
 <div align="center">
 
-<img src="https://img.shields.io/badge/HTML5-E34C26?style=flat-round&logo=html5&logoColor=white" />
-<img src="https://img.shields.io/badge/CSS3-264653?style=flat-round&logo=css3&logoColor=white" />
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-round&logo=javascript&logoColor=000" />
-<img src="https://img.shields.io/badge/React-61DAFB?style=flat-round&logo=react&logoColor=000" />
-<img src="https://img.shields.io/badge/Node.js-68A51C?style=flat-round&logo=nodedotjs&logoColor=white" />
-<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-round&logo=typescript&logoColor=white" />
-<img src="https://img.shields.io/badge/Next.js-000000?style=flat-round&logo=nextdotjs&logoColor=white" />
-<img src="https://img.shields.io/badge/SQL-F46B45?style=flat-round&logoColor=white" />
+![HTML5][badge-html]
+![CSS3][badge-css]
+![JavaScript][badge-js]
+![Git][badge-git]
+![GitHub][badge-github]
+![Node.js][badge-node]
+![SQL][badge-sql]
+![React][badge-react]
+![TypeScript][badge-ts]
+![Next.js][badge-next]
 
 </div>
 
@@ -58,3 +74,19 @@
 This repo is **only my daily practice and exercises** while following along with the course above.
 
 It is not a tutorial or course itself. If you want to learn, head to the [original video on freeCodeCamp YouTube](https://www.youtube.com/watch?v=LzMnsfqjzkA&t=4s) and [Scrimba](https://scrimba.com) — they are the real source. 🙌
+
+
+<!-- Waiting for calls -->
+[badge-html]: https://img.shields.io/badge/HTML5-E34C26?style=flat-round&logo=html5&logoColor=white
+[badge-css]: https://img.shields.io/badge/CSS3-264653?style=flat-round&logo=css3&logoColor=white
+[badge-js]: https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-round&logo=javascript&logoColor=000
+[badge-git]: https://img.shields.io/badge/Git-F05032?style=flat-round&logo=git&logoColor=white
+[badge-github]: https://img.shields.io/badge/GitHub-181717?style=flat-round&logo=github&logoColor=white
+[badge-chrome]: https://img.shields.io/badge/Chrome_Extension-4285F4?style=flat-round&logo=googlechrome&logoColor=white
+[badge-api]: https://img.shields.io/badge/REST_API-005571?style=flat-round&logo=fastapi&logoColor=white
+[badge-cli]: https://img.shields.io/badge/Command_Line-4EAA25?style=flat-round&logo=gnubash&logoColor=white
+[badge-node]: https://img.shields.io/badge/Node.js-68A51C?style=flat-round&logo=nodedotjs&logoColor=white
+[badge-sql]: https://img.shields.io/badge/SQL-F46B45?style=flat-round&logoColor=white
+[badge-react]: https://img.shields.io/badge/React-61DAFB?style=flat-round&logo=react&logoColor=000
+[badge-ts]: https://img.shields.io/badge/TypeScript-3178C6?style=flat-round&logo=typescript&logoColor=white
+[badge-next]: https://img.shields.io/badge/Next.js-000000?style=flat-round&logo=nextdotjs&logoColor=white
