@@ -9,16 +9,35 @@
       href="https://fonts.googleapis.com/css2?family=Play:wght@400;700&family=Playball&display=swap"
       rel="stylesheet"
     />
-    />
   </head>
   <body>
     <div class="container">
-      <div>
-        <h3>Home</h3>
+      <div class="home">
+        <div><h1>Home</h1></div>
+        <div class="display">
+          <div class="score" id="home-score">0</div>
+        </div>
+        <div class="buttons">
+          <button class="btn" onclick="addHome1()">+1</button>
+          <button class="btn" onclick="addHome2()">+2</button>
+          <button class="btn" onclick="addHome3()">+3</button>
+        </div>
       </div>
 
-      <div>
-        <h3>Away</h3>
+      <div class="away">
+        <div><h1>Away</h1></div>
+        <div class="display">
+          <div class="score" id="away-score">0</div>
+        </div>
+        <div class="buttons">
+          <button class="btn" onclick="addAway1()">+1</button>
+          <button class="btn" onclick="addAway2()">+2</button>
+          <button class="btn" onclick="addAway3()">+3</button>
+        </div>
+      </div>
+
+      <div class="reset">
+        <button class="btn reset-btn" onclick="resetAll()">Reset</button>
       </div>
     </div>
 
