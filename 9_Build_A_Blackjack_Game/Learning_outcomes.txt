@@ -1,4 +1,10 @@
 07:19:59 Build a blackjack game [Mar 10, 2026]
-- 
-- 
-- 
+- arrays
+- objects
+- booleans
+- if-else
+- comparison oparations
+- logical operatiors -> &&,  ||
+- for loops
+- The Math and the floor object
+- return statements

@@ -11,8 +11,11 @@ let cardsEl = document.querySelector("#cards-el");
 
 let player = {
   name: "ARS",
-  chips: 145,
+  chips: 149,
 };
+
+// Event Listener way
+document.getElementById("new-card-btn").addEventListener("click", newCard);
 
 let playerEl = document.getElementById("player-el");
 playerEl.textContent = player.name + ": $" + player.chips;
@@ -20,8 +23,8 @@ playerEl.textContent = player.name + ": $" + player.chips;
 function getRandomCard() {
   let randomNum = Math.floor(Math.random() * 13) + 1; // return random between 1 to 13
   if (randomNum === 1) {
-    // is ACE => 11
-    return 11;
+    // ACE => 1 / 11
+    return sum + 11 <= 21 ? 11 : 1; // checks whether 11 is safe before committing to it
   } else if (randomNum > 10) {
     // if K(13) / Q(12) / J(11) => 10
     return 10;
@@ -32,6 +35,10 @@ function getRandomCard() {
 }
 
 function startGame() {
+  if (isAlive) {
+    return;
+  }
+  hasBlackJack = false; // reset
   isAlive = true;
   let firstCard = getRandomCard();
   let secondCard = getRandomCard();
@@ -63,6 +70,7 @@ function renderGame() {
 
 function newCard() {
   if (!isAlive || hasBlackJack) {
+    if (!isAlive) messageEl.textContent = "Please start a game first!";
     return;
   }
 
@@ -73,4 +81,4 @@ function newCard() {
   renderGame();
 }
 
-// Till 09:51:05
+// document.getElementById("new-card-btn").disabled = true;
