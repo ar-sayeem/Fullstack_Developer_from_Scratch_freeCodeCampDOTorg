@@ -35,9 +35,9 @@ function getRandomCard() {
 }
 
 function startGame() {
-  if (isAlive) {
+if (isAlive && !hasBlackJack) {
     return;
-  }
+}
   hasBlackJack = false; // reset
   isAlive = true;
   let firstCard = getRandomCard();
