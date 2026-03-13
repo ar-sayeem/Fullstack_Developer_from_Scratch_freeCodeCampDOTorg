@@ -21,6 +21,7 @@
 | 🪪 Business Card | ![HTML5][badge-html] ![CSS3][badge-css] | [🔗 Live →](https://ars-business-card.netlify.app/) |
 | ⛩️ Anime Verse | ![HTML5][badge-html] ![CSS3][badge-css] | [🔗 Live →](https://ars-animeverse.netlify.app/) |
 | 🏀 Basketball Scoreboard | ![HTML5][badge-html] ![CSS3][badge-css] ![JavaScript][badge-js] | [🔗 Live →](https://ars-basketball-scoreboard.netlify.app/) |
+| 🃏 Blackjack Game | ![HTML5][badge-html] ![CSS3][badge-css] ![JavaScript][badge-js] | [🔗 Live →](https://ars-blackjack-game.netlify.app/) |
 
 </div>
 
