@@ -22,6 +22,8 @@
 | ⛩️ Anime Verse | ![HTML5][badge-html] ![CSS3][badge-css] | [🔗 Live →](https://ars-animeverse.netlify.app/) |
 | 🏀 Basketball Scoreboard | ![HTML5][badge-html] ![CSS3][badge-css] ![JavaScript][badge-js] | [🔗 Live →](https://ars-basketball-scoreboard.netlify.app/) |
 | 🃏 Blackjack Game | ![HTML5][badge-html] ![CSS3][badge-css] ![JavaScript][badge-js] | [🔗 Live →](https://ars-blackjack-game.netlify.app/) |
+| ⚔️ Emoji Fighter | ![HTML5][badge-html] ![CSS3][badge-css] ![JavaScript][badge-js] | [🔗 Live →](https://ars-emoji-fighter.netlify.app/) |
+| 🍎 Fruit Sorter | ![HTML5][badge-html] ![CSS3][badge-css] ![JavaScript][badge-js] | [🔗 Live →](https://ars-fruit-sorter.netlify.app/) |
 
 </div>
 
