@@ -1,0 +1,8 @@
+From 10:15:19 Javascript challenges part 2
+- conditions
+- loops & array
+- object and functions
+- logical operators
+- push() & pop()
+- shift() & unshift()
+- random()

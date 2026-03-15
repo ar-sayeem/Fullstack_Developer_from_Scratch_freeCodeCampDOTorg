@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Iosevka Charon Mono", monospace;
+  font-weight: 700;
+  font-style: italic;
+}
+
+body {
+  background: #f9f5f0;
+  padding: 30px 20px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Fruit tray */
+#fruit-tray {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 6px;
+  background: #fff;
+  border: 2px dashed #ccc;
+  border-radius: 12px;
+  padding: 16px;
+  max-width: 500px;
+  margin: 0 auto 20px;
+  font-size: 1.8rem;
+}
+
+/* Buttons row */
+#btn-row {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-bottom: 30px;
+}
+
+/* Sort button */
+#sort-btn {
+  background: #f4a535;
+  color: #fff;
+  border: none;
+  padding: 10px 28px;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+#sort-btn:hover {
+  background: #d4891a;
+}
+
+/* Scatter button */
+#scatter-btn {
+  background: #fff;
+  color: #e05555;
+  border: 2px solid #e05555;
+  padding: 10px 28px;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+#scatter-btn:hover {
+  background: #e05555;
+  color: #fff;
+}
+
+/* Shelves row */
+.shelves {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.shelf {
+  width: 150px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.shelf h2 {
+  font-size: 0.85rem;
+  padding: 8px;
+  background: rgba(0, 0, 0, 0.12);
+  color: #333;
+}
+
+#apple-shelf,
+#orange-shelf,
+#other-shelf {
+  min-height: 80px;
+  padding: 10px;
+  font-size: 1.6rem;
+  letter-spacing: 3px;
+  word-break: break-all;
+  border-radius: 0 0 10px 10px;
+}
+
+#apple-shelf {
+  background: #ffc5c5;
+}
+#orange-shelf {
+  background: #ffe0b2;
+}
+#other-shelf {
+  background: #b2ece8;
+}

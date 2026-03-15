@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fruit Sorter</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Iosevka+Charon+Mono:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <h1>🍽️ Fruit Sorter</h1>
+
+    <!-- Fruit tray at top -->
+    <div id="fruit-tray"></div>
+
+    <!-- Buttons -->
+    <div id="btn-row">
+      <button id="sort-btn" onclick="sortFruit()">Sort Fruits</button>
+      <button id="scatter-btn" onclick="location.reload()">
+        Scatter Fruits
+      </button>
+    </div>
+
+    <!-- Shelves -->
+    <div class="shelves">
+      <div class="shelf">
+        <h2>🍎 Apples</h2>
+        <div id="apple-shelf"></div>
+      </div>
+      <div class="shelf">
+        <h2>🍊 Oranges</h2>
+        <div id="orange-shelf"></div>
+      </div>
+      <div class="shelf">
+        <h2>🧺 Others</h2>
+        <div id="other-shelf"></div>
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
