@@ -24,6 +24,7 @@
 | 🃏 Blackjack Game | ![HTML5][badge-html] ![CSS3][badge-css] ![JavaScript][badge-js] | [🔗 Live →](https://ars-blackjack-game.netlify.app/) |
 | ⚔️ Emoji Fighter | ![HTML5][badge-html] ![CSS3][badge-css] ![JavaScript][badge-js] | [🔗 Live →](https://ars-emoji-fighter.netlify.app/) |
 | 🍎 Fruit Sorter | ![HTML5][badge-html] ![CSS3][badge-css] ![JavaScript][badge-js] | [🔗 Live →](https://ars-fruit-sorter.netlify.app/) |
+| 🔐 Password Generator | ![HTML5][badge-html] ![CSS3][badge-css] ![JavaScript][badge-js] | [🔗 Live →](https://ars-password-generator.netlify.app/) |
 
 </div>
 
