@@ -1,8 +1,10 @@
 From 10:41:25 Build a Chrome extension
-- 
-- 
-- 
-- 
-- 
-- 
-- 
+- const
+- addEventListener
+- innerHTML
+- input.value
+- function parameter
+- template strings
+- local storage
+- The JSON object
+- objects in array
