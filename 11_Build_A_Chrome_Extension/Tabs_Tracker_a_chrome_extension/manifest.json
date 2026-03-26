@@ -2,6 +2,7 @@
   "manifest_version": 3,
   "version": "2.0",
   "name": "Tabs Tracker",
+  "description": "Save, manage, and revisit important URLs directly from your browser. Never lose an important tab again!",
   "action": {
     "default_popup": "index.html",
     "default_icon": "icon.png"
