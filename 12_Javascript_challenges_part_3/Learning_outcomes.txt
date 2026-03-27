@@ -1,0 +1,6 @@
+From 13:34:25 Javascript challenges part 3
+- AddEventListener + object array
+- render image using imageDOM (self create, make light load to website)
+- Number() function
+- .toFixed() method
+- recap [item-array, localStorage, template literals, let-const]
