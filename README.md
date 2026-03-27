@@ -18,13 +18,14 @@
 
 | Project Name | Techs | Live Link |
 |:---:|:---:|:---:|
-| 🪪 Business Card | ![HTML5][badge-html] ![CSS3][badge-css] | [🔗 Live →](https://ars-business-card.netlify.app/) |
-| ⛩️ Anime Verse | ![HTML5][badge-html] ![CSS3][badge-css] | [🔗 Live →](https://ars-animeverse.netlify.app/) |
-| 🏀 Basketball Scoreboard | ![HTML5][badge-html] ![CSS3][badge-css] ![JavaScript][badge-js] | [🔗 Live →](https://ars-basketball-scoreboard.netlify.app/) |
-| 🃏 Blackjack Game | ![HTML5][badge-html] ![CSS3][badge-css] ![JavaScript][badge-js] | [🔗 Live →](https://ars-blackjack-game.netlify.app/) |
-| ⚔️ Emoji Fighter | ![HTML5][badge-html] ![CSS3][badge-css] ![JavaScript][badge-js] | [🔗 Live →](https://ars-emoji-fighter.netlify.app/) |
-| 🍎 Fruit Sorter | ![HTML5][badge-html] ![CSS3][badge-css] ![JavaScript][badge-js] | [🔗 Live →](https://ars-fruit-sorter.netlify.app/) |
-| 🔐 Password Generator | ![HTML5][badge-html] ![CSS3][badge-css] ![JavaScript][badge-js] | [🔗 Live →](https://ars-password-generator.netlify.app/) |
+| 🪪 Business Card | ![HTML5][badge-html] ![CSS3][badge-css] | [![Live][live-netlify]](https://ars-business-card.netlify.app/) |
+| ⛩️ Anime Verse | ![HTML5][badge-html] ![CSS3][badge-css] | [![Live][live-netlify]](https://ars-animeverse.netlify.app/) |
+| 🏀 Basketball Scoreboard | ![HTML5][badge-html] ![CSS3][badge-css] ![JavaScript][badge-js] | [![Live][live-netlify]](https://ars-basketball-scoreboard.netlify.app/) |
+| 🃏 Blackjack Game | ![HTML5][badge-html] ![CSS3][badge-css] ![JavaScript][badge-js] | [![Live][live-netlify]](https://ars-blackjack-game.netlify.app/) |
+| ⚔️ Emoji Fighter | ![HTML5][badge-html] ![CSS3][badge-css] ![JavaScript][badge-js] | [![Live][live-netlify]](https://ars-emoji-fighter.netlify.app/) |
+| 🍎 Fruit Sorter | ![HTML5][badge-html] ![CSS3][badge-css] ![JavaScript][badge-js] | [![Live][live-netlify]](https://ars-fruit-sorter.netlify.app/) |
+| 🔐 Password Generator | ![HTML5][badge-html] ![CSS3][badge-css] ![JavaScript][badge-js] | [![Live][live-netlify]](https://ars-password-generator.netlify.app/) |
+| 🧩 Tabs Tracker (Chrome Extension) | ![HTML5][badge-html] ![CSS3][badge-css] ![JavaScript][badge-js] | [![GitHub][badge-github]](https://github.com/ar-sayeem/Tabs_Tracker_a_chrome_extension) |
 
 </div>
 
@@ -94,3 +95,5 @@ It is not a tutorial or course itself. If you want to learn, head to the [origin
 [badge-react]: https://img.shields.io/badge/React-61DAFB?style=flat-round&logo=react&logoColor=000
 [badge-ts]: https://img.shields.io/badge/TypeScript-3178C6?style=flat-round&logo=typescript&logoColor=white
 [badge-next]: https://img.shields.io/badge/Next.js-000000?style=flat-round&logo=nextdotjs&logoColor=white
+[live-demo]: https://img.shields.io/badge/Live-Demo-00C853?style=flat-round&logo=google-chrome&logoColor=white
+[live-netlify]: https://img.shields.io/badge/Live-Netlify-00C7B7?style=flat-round&logo=netlify&logoColor=white
