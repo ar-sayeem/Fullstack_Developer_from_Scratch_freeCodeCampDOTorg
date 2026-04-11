@@ -1,0 +1,15 @@
+From 15:12:55 Advanced foundations
+- The Ternary Operators
+- The Switch Statement
+- Object Destructuring
+- setTimeout
+- setInterval
+- Event Loop
+- Scope
+- Hoisting
+- Import/export
+- The Date Constructor
+- The Error Constructor
+- pre-increment
+- BigInt
+- Numeric separators
