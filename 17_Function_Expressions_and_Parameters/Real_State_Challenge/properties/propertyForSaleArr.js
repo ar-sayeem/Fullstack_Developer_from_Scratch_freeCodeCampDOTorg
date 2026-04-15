@@ -29,3 +29,4 @@ const propertyForSaleArr = [
     }
 ]
 
+export default propertyForSaleArr
