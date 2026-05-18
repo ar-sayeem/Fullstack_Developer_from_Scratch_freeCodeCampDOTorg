@@ -1,6 +1,9 @@
 From 18:26:57 Asynchronous javascript and APIs
-- 
-- 
-- 
-- 
-- 
+- What is API
+- Clients & Servers
+- Requests and Responses
+- JSON data
+- The URLs to access APIs
+- Fetching Data
+- Handling errors
+- Promises
