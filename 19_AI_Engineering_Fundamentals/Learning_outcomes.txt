@@ -1,0 +1,9 @@
+From 19:42:29 AI engineering fundamentals
+- How openAI models work
+- Setting up a request
+- Tokens
+- Tools
+- The "Few Shot" approach
+- Temperature
+- The "Stop Sequence"
+- Frequency and Presence Penalties
